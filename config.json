@@ -1,0 +1,17 @@
+{
+    "serverName": "Slack Redirection Service",
+
+    "createRoute": "/create",
+    "readRoute": "/redirect",
+
+    "redirectMethod": "client-side",
+
+    "shortenUrl": false,
+    "port": "8000",
+
+    "templates": {
+        "redirect": "./templates/redirect.html",
+        "4xx": "./templates/4xx.html",
+        "5xx": "./templates/5xx.html"
+    }
+}
